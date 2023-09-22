@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.task{
+    display: flex;
+}
+.task__container{
+    display: flex;
+}
+.complete{
+    color: red;
+    text-decoration: line-through;
+}
+.none{
+    visibility: hidden;
+}
